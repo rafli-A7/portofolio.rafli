@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rafli Akram Fakhir · Portfolio</title>
+
+    <!-- ===== FONTS ===== -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+    href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400;14..32,500;14..32,600;14..32,700;14..32,800&display=swap"
+    rel="stylesheet"
+    />
+
+    <!-- ===== FONT AWESOME (icons) ===== -->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+
+    <!-- ===== CSS terpisah ===== -->
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+    <!-- ============================================================
+    NAVBAR
+    ============================================================ -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <a href="#" class="logo">Rafli<span>.</span></a>
+
+            <!-- Hamburger button -->
+            <button class="hamburger" id="hamburger" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <!-- Navigation links -->
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- ============================================================
+    HERO
+    ============================================================ -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <h1>
+                    Hi, I'm <br />
+                    <span class="highlight">Rafli Akram Fakhir</span>
+                </h1>
+                <p>
+                    I build clean, responsive, and user-friendly web
+                    experiences. Let's create something awesome together.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn">See My Work</a>
+                    <a href="#contact" class="btn btn-outline">Let's Talk</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="avatar">
+                    <i class="fas fa-code"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================================
+    ABOUT
+    ============================================================ -->
+    <section id="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <p class="section-subtitle">
+                A passionate developer focused on building clean &amp; functional digital products.
+            </p>
+
+            <div class="about-grid">
+                <div class="about-text">
+                    <p>
+                        I'm <strong>Rafli Akram Fakhir</strong>, a web developer
+                        who loves turning ideas into reality through code.
+                        I enjoy working with modern tools to craft interfaces
+                        that are both beautiful and intuitive.
+                    </p>
+                    <p>
+                        With a strong foundation in HTML, CSS, and JavaScript,
+                        I'm constantly learning and exploring new technologies
+                        to stay at the forefront of web development.
+                    </p>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-card">
+                        <span class="number">2+</span>
+                        <span class="label">Years of Learning</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="number">12</span>
+                        <span class="label">Projects Built</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="number">100%</span>
+                        <span class="label">Commitment</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================================
+    PROJECTS
+    ============================================================ -->
+    <section id="projects">
+        <div class="container">
+            <h2 class="section-title">My Projects</h2>
+            <p class="section-subtitle">
+                Here are some of the projects I've worked on. Click any card to explore.
+            </p>
+
+            <div class="projects-grid">
+
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <div class="icon"><i class="fas fa-store"></i></div>
+                    <h3>EcoShop Marketplace</h3>
+                    <p>
+                        A full-featured e-commerce platform with cart,
+                        product filtering, and a seamless checkout flow.
+                    </p>
+                    <div class="tags">
+                        <span>React</span>
+                        <span>Tailwind</span>
+                        <span>Firebase</span>
+                    </div>
+                    <a href="#" class="project-link" target="_blank">
+                        View Project <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <div class="icon"><i class="fas fa-weather-sun"></i></div>
+                    <h3>WeatherViz Dashboard</h3>
+                    <p>
+                        Real-time weather dashboard with interactive
+                        charts, 7‑day forecast, and location search.
+                    </p>
+                    <div class="tags">
+                        <span>Vanilla JS</span>
+                        <span>Chart.js</span>
+                        <span>REST API</span>
+                    </div>
+                    <a href="#" class="project-link" target="_blank">
+                        View Project <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card">
+                    <div class="icon"><i class="fas fa-tasks"></i></div>
+                    <h3>TaskFlow Organizer</h3>
+                    <p>
+                        A productivity app for managing tasks, setting
+                        priorities, and tracking progress with drag &amp; drop.
+                    </p>
+                    <div class="tags">
+                        <span>Vue.js</span>
+                        <span>Vuex</span>
+                        <span>SCSS</span>
+                    </div>
+                    <a href="#" class="project-link" target="_blank">
+                        View Project <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="project-card">
+                    <div class="icon"><i class="fas fa-film"></i></div>
+                    <h3>MovieFlix Tracker</h3>
+                    <p>
+                        Search and discover movies with detailed info,
+                        ratings, and a personal watchlist feature.
+                    </p>
+                    <div class="tags">
+                        <span>React</span>
+                        <span>TMDB API</span>
+                        <span>CSS Modules</span>
+                    </div>
+                    <a href="#" class="project-link" target="_blank">
+                        View Project <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+
+                <!-- Project 5 -->
+                <div class="project-card">
+                    <div class="icon"><i class="fas fa-utensils"></i></div>
+                    <h3>RecipeBook</h3>
+                    <p>
+                        A recipe collection app with search, categories,
+                        and step-by-step cooking instructions.
+                    </p>
+                    <div class="tags">
+                        <span>Next.js</span>
+                        <span>MongoDB</span>
+                        <span>Tailwind</span>
+                    </div>
+                    <a href="#" class="project-link" target="_blank">
+                        View Project <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+
+                <!-- Project 6 -->
+                <div class="project-card">
+                    <div class="icon"><i class="fas fa-running"></i></div>
+                    <h3>FitTrack Health</h3>
+                    <p>
+                        Fitness tracker that monitors daily steps,
+                        calories burned, and workout history with charts.
+                    </p>
+                    <div class="tags">
+                        <span>Angular</span>
+                        <span>TypeScript</span>
+                        <span>D3.js</span>
+                    </div>
+                    <a href="#" class="project-link" target="_blank">
+                        View Project <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================================
+    SKILLS
+    ============================================================ -->
+    <section id="skills">
+        <div class="container">
+            <h2 class="section-title">Tech Stack</h2>
+            <p class="section-subtitle">
+                Tools and technologies I work with regularly.
+            </p>
+
+            <div class="skills-grid">
+                <div class="skill-item"><i class="fab fa-html5"></i> HTML5</div>
+                <div class="skill-item"><i class="fab fa-css3-alt"></i> CSS3</div>
+                <div class="skill-item"><i class="fab fa-js"></i> JavaScript</div>
+                <div class="skill-item"><i class="fab fa-react"></i> React</div>
+                <div class="skill-item"><i class="fab fa-vuejs"></i> Vue.js</div>
+                <div class="skill-item"><i class="fab fa-node"></i> Node.js</div>
+                <div class="skill-item"><i class="fab fa-python"></i> Python</div>
+                <div class="skill-item"><i class="fas fa-database"></i> MongoDB</div>
+                <div class="skill-item"><i class="fas fa-fire"></i> Firebase</div>
+                <div class="skill-item"><i class="fab fa-git-alt"></i> Git</div>
+                <div class="skill-item"><i class="fab fa-figma"></i> Figma</div>
+                <div class="skill-item"><i class="fas fa-code"></i> REST APIs</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================================
+    CONTACT
+    ============================================================ -->
+    <section id="contact">
+        <div class="container">
+            <h2 class="section-title">Get in Touch</h2>
+            <p class="section-subtitle">
+                Have a question or want to work together? Let's connect.
+            </p>
+
+            <div class="contact-wrapper">
+                <!-- left: info -->
+                <div class="contact-info">
+                    <h3>Let's build something great</h3>
+                    <p>
+                        I'm always open to new opportunities, collaborations,
+                        or just a friendly chat. Reach out anytime.
+                    </p>
+
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <a href="mailto:rafli@example.com">rafli@example.com</a>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-github"></i>
+                        <a href="#" target="_blank">github.com/rafli</a>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-linkedin-in"></i>
+                        <a href="#" target="_blank">linkedin.com/in/rafli</a>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-twitter"></i>
+                        <a href="#" target="_blank">@rafli_dev</a>
+                    </div>
+                </div>
+
+                <!-- right: form -->
+                <form class="contact-form" id="contactForm">
+                    <input type="text" placeholder="Your Name" required />
+                    <input type="email" placeholder="Your Email" required />
+                    <input type="text" placeholder="Subject" />
+                    <textarea placeholder="Your Message..." required></textarea>
+                    <button type="submit" class="btn">
+                        Send Message <i class="fas fa-paper-plane" style="margin-left:8px;"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================================
+    FOOTER
+    ============================================================ -->
+    <footer>
+        <div class="container">
+            <div class="socials">
+                <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            </div>
+            <p>
+                &copy; 2026 Rafli Akram Fakhir &middot; Built with
+                <span class="heart">❤</span> and lots of coffee.
+            </p>
+        </div>
+    </footer>
+
+    <!-- ===== JavaScript terpisah ===== -->
+    <script src="script.js"></script>
+</body>
+</html>
